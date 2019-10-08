@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "un blog en vueJS",
+  "main": "server.js",
+  "scripts": {"dev": "nodemon server.js"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desarinfo85/VueJs-blog.git"
+  },
+  "author": "stephane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desarinfo85/VueJs-blog/issues"
+  },
+  "homepage": "https://github.com/Desarinfo85/VueJs-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
